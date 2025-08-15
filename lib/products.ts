@@ -1,0 +1,83 @@
+import type { Product } from "@/types/product"
+
+export const products: Product[] = [
+  {
+    id: "1",
+    title: "Running Shoes",
+    price: 99,
+    description: "Comfortable running shoes for daily exercise",
+    category: "clothing",
+    image: "/placeholder.svg?height=300&width=300",
+    rating: { rate: 4.5, count: 120 },
+  },
+  {
+    id: "2",
+    title: "Wireless Headphones",
+    price: 149,
+    description: "High-quality wireless headphones with noise cancellation",
+    category: "electronics",
+    image: "/placeholder.svg?height=300&width=300",
+    rating: { rate: 4.3, count: 89 },
+  },
+  {
+    id: "3",
+    title: "Backpack",
+    price: 129,
+    description: "Durable backpack for travel and daily use",
+    category: "home",
+    image: "/placeholder.svg?height=300&width=300",
+    rating: { rate: 4.7, count: 156 },
+  },
+  {
+    id: "4",
+    title: "Smartwatch",
+    price: 249,
+    description: "Advanced smartwatch with health tracking features",
+    category: "electronics",
+    image: "/placeholder.svg?height=300&width=300",
+    rating: { rate: 4.4, count: 203 },
+  },
+  {
+    id: "5",
+    title: "Sunglasses",
+    price: 149,
+    description: "Stylish sunglasses with UV protection",
+    category: "clothing",
+    image: "/placeholder.svg?height=300&width=300",
+    rating: { rate: 4.2, count: 78 },
+  },
+  {
+    id: "6",
+    title: "Digital Camera",
+    price: 499,
+    description: "Professional digital camera for photography enthusiasts",
+    category: "electronics",
+    image: "/placeholder.svg?height=300&width=300",
+    rating: { rate: 4.6, count: 134 },
+  },
+  {
+    id: "7",
+    title: "T-shirt",
+    price: 29,
+    description: "Comfortable cotton t-shirt for casual wear",
+    category: "clothing",
+    image: "/placeholder.svg?height=300&width=300",
+    rating: { rate: 4.1, count: 92 },
+  },
+  {
+    id: "8",
+    title: "Smartphone",
+    price: 699,
+    description: "Latest smartphone with advanced features and great camera",
+    category: "electronics",
+    image: "/placeholder.svg?height=300&width=300",
+    rating: { rate: 4.5, count: 267 },
+  },
+]
+
+export const categories = [
+  { id: "all", name: "All" },
+  { id: "electronics", name: "Electronics" },
+  { id: "clothing", name: "Clothing" },
+  { id: "home", name: "Home" },
+]
